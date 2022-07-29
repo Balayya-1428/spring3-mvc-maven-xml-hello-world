@@ -16,4 +16,4 @@ jobs:
       run: mvn -B package --file pom.xml 
       - name: tomcat deploy
         run: curl -v -u admin:admin -T /home/ec2-user/actions-runner/_work/spring3-mvc-maven-xml-hello-world/spring3-
-        mvc-maven-xml-hello-world/target/spring3-mvc-maven-xml-hello-world-1.0-SNAPSHOT.war"http://52.66.238.137:8080/manager/html?"
+        mvc-maven-xml-hello-world/target/spring3-mvc-maven-xml-hello-world-1.0-SNAPSHOT.war"http://52.66.238.137:8080/manager/"
