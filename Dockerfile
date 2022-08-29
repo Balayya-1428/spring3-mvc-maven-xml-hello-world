@@ -1,2 +1,2 @@
 FROM tomcat
-COPY target/spring3-mvc-maven-xml-hello-world-1.2.war /usr/local/tomcat/webapps/spring3.war
+COPY ../spring3.war
